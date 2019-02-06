@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cozy Keepsakes | Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Atma|Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.nav {
+			width: 100%;
+			height: 5em;
+			display: flex;
+			justify-content: space-between;
+			background-color: #FE74A8;
+		}
+		.logo {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			margin: 0 0 0 1em;
+		}
+		.image {
+			height: 3em;
+			width: 3em;
+			background: url('logo.png') no-repeat center center; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.name h1 {
+			font-family: 'Atma', cursive;
+			margin: 0.5em 0.5em;
+		}
+		.menu {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			margin: 0 1em 0 0;
+		}
+			.menu div {
+				margin: 0 0.25em;
+				padding: 0.5em 1em;
+			}
+
+			.menu div:hover {
+				cursor: pointer;
+				background-color: hsl(345, 99%, 65%);
+			}
+		.container {
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+		}
+		.product {
+			margin: 1em;
+			height: 25em;
+			width: 15em;
+			background-color: #FFF7FA;
+			-webkit-box-shadow: 0px 1px 5px 0px rgba(200,192,195,1);
+			-moz-box-shadow: 0px 1px 5px 0px rgba(200,192,195,1);
+			box-shadow: 0px 1px 5px 0px rgba(200,192,195,1);
+		}
+			.product:hover {
+				cursor: pointer;
+				-webkit-box-shadow: 0px 1px 5px 0px #B79AA6;
+				-moz-box-shadow: 0px 1px 5px 0px #B79AA6;
+				box-shadow: 0px 1px 5px 0px #B79AA6;
+			}
+		.product_image {
+			height: 20em;
+			background: url('https://via.placeholder.com/300x400.png?text=placeholder') no-repeat center center; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.product_name h3 {
+			padding: 0.25em 0.5em;
+			margin: 0;
+		}
+		.price {
+			margin-top: 0.8em;
+			text-align: right;
+			padding: 0.25em 0.5em;
+			font-family: 'Atma', cursive;
+			font-size: 1.2em;
+		}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<div class="logo">
+			<div class="image">
+			</div>
+			<div class="name">
+				<h1>Cosy Keepsakes</h1>
+			</div>
+		</div>
+		
+		<div class="menu">
+			<div>Animals</div>
+			<div>Baby clothes</div>
+			<div>Homeware</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="product">
+			<div class="product_image">
+			</div>
+			<div class="product_name">
+				<h3>Onesie (3 - 6 months)</h3>
+			</div>
+			<div class="price">
+				£XX.XX
+			</div>
+		</div>
+
+		<div class="product">
+			<div class="product_image">
+			</div>
+			<div class="product_name">
+				<h3>Onesie (3 - 6 months)</h3>
+			</div>
+			<div class="price">
+				£XX.XX
+			</div>
+		</div>
+
+		<div class="product">
+			<div class="product_image">
+			</div>
+			<div class="product_name">
+				<h3>Onesie (3 - 6 months)</h3>
+			</div>
+			<div class="price">
+				£XX.XX
+			</div>
+		</div>
+	</div> <!-- /container -->
+</body>
+</html>
